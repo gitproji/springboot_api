@@ -42,4 +42,8 @@ public class PostController {
     public String postMemberDto(@RequestBody MemberDto memberDto) {
         return memberDto.toString();
     }
+
+    //URL : 웹 주소
+    //URI : 특정 리소스를 식별할 수 있는 식별자
+
 }
